@@ -1,0 +1,130 @@
+/* Universal Styles */
+/* Variables*/
+/* Mixins */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+@media only screen and (max-width: 765px) {
+  html {
+    font-size: 50%; } }
+
+body {
+  font-family: "Helvetica", sans-serif; }
+
+h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: bold; }
+
+/* Header Section*/
+/* Navbar Section */
+.navbar-dark {
+  font-size: 1.7rem; }
+  .navbar-dark .navbar-nav .nav-item {
+    padding-left: 4rem; }
+    .navbar-dark .navbar-nav .nav-item .nav-link {
+      color: #fff; }
+
+#nav-button {
+  font-size: 1.8rem;
+  padding: 1.3rem 6rem;
+  border-radius: 2rem; }
+
+.header {
+  background-image: linear-gradient(to right bottom, rgba(231, 12, 158, 0.795), rgba(231, 12, 158, 0.171)), url("../resources/images/strips.png");
+  background-size: cover; }
+  .header__content {
+    padding: 10rem 0; }
+    .header__content p {
+      font-size: 2rem;
+      color: #fff; }
+    .header__content a {
+      font-size: 1.8rem;
+      padding: 1.8rem 6rem;
+      border-radius: 2rem; }
+      .header__content a.btn {
+        color: #fff; }
+  .header__img {
+    width: 100%;
+    border-radius: 2rem; }
+
+.image {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 2rem; }
+
+.header__content--mouse img:hover {
+  animation: mouseIcon 500ms; }
+
+@keyframes mouseIcon {
+  0% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(1rem); } }
+
+/* Header Section Media Queries */
+@media only screen and (max-width: 765px) {
+  .header__content {
+    text-align: center; }
+  .header__img {
+    display: none; }
+  .image {
+    display: none; } }
+
+/* Features Section */
+.features__background {
+  background-color: #000; }
+
+.features__content {
+  padding: 10rem 0;
+  font-size: 1.8rem; }
+  .features__content p {
+    color: #fff; }
+
+.features__content--img {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 20rem;
+  box-shadow: #fff 0 0 1rem; }
+
+.features__title--heading {
+  color: #fff; }
+  .features__title--heading h2 {
+    font-size: 3rem; }
+
+/* About Section */
+.about__image img {
+  width: 100%; }
+
+.about__text h2 {
+  font-size: 3rem; }
+
+.about__text p {
+  font-size: 1.5rem; }
+
+/* Pricing Section */
+.price__background {
+  background-color: #F8F9F9; }
+
+.price__title {
+  padding: 10rem 0; }
+  .price__title h2 {
+    font-size: 3rem; }
+
+.price__content--type {
+  font-size: 1.8rem; }
+
+.price__content--price {
+  font-size: 4rem;
+  font-weight: bold; }
+
+.price__content--time {
+  font-size: 1.5rem; }
+
+.price__content--features {
+  font-size: 1.7rem; }

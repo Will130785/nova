@@ -1,0 +1,228 @@
+/* Universal Styles */
+
+/* Variables*/
+$color-white: #fff;
+$color-black: #000;
+$color-offWhite: #F8F9F9;
+
+/* Mixins */
+@mixin buttonStyle {
+    font-size: 1.8rem;
+    padding: 1.8rem 6rem;
+    border-radius: 2rem;
+    color: $color-white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media only screen and(max-width: 765px){
+    html {
+        font-size: 50%;
+    }
+}
+
+
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    color: $color-white;
+    font-weight: bold;
+}
+
+/* Header Section*/
+
+/* Navbar Section */
+
+.navbar-dark {
+    font-size: 1.7rem;
+
+    .navbar-nav .nav-item {
+        padding-left: 4rem;
+    
+        .nav-link {
+            color: $color-white;
+        }
+}
+}
+
+#nav-button {
+    font-size: 1.8rem;
+    padding: 1.3rem 6rem;
+    border-radius: 2rem;
+}
+
+
+
+.header {
+    background-image: linear-gradient(to right bottom, rgba(231, 12, 158, 0.795),
+                         rgba(231, 12, 158, 0.171)),
+                         url("../resources/images/strips.png");
+    background-size: cover;
+
+    &__content {
+        padding: 10rem 0;
+
+        p {
+            font-size: 2rem;
+            color: $color-white;
+        }
+
+        a {
+            font-size: 1.8rem;
+            padding: 1.8rem 6rem;
+            border-radius: 2rem;
+
+            &.btn {
+                color: $color-white;
+            }
+        }
+    }
+
+    &__img {
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+}
+
+.image {
+    background-color: $color-white;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+.header__content--mouse img:hover {
+    animation: mouseIcon 500ms;
+}
+
+@keyframes mouseIcon {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(1rem);
+    }
+}
+
+/* Header Section Media Queries */
+
+@media only screen and(max-width: 765px){
+    .header__content {
+        text-align: center;
+    }
+
+    .header__img {
+        display: none;
+    }
+
+    .image {
+        display: none;
+    }
+}
+
+/* Features Section */
+
+.features {
+
+    &__background {
+        background-color: $color-black;
+}
+
+    &__content {
+        padding: 10rem 0;
+        font-size: 1.8rem;
+
+        p {
+        color: $color-white;
+        }
+    }
+
+
+    &__content--img {
+        background-color: $color-white;
+        padding: 1rem;
+        border-radius: 20rem;
+        box-shadow: $color-white 0 0 1rem;
+}
+    &__title--heading {
+        color: $color-white;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+    }
+}
+
+/* About Section */
+
+.about {
+
+    &__image {
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &__text {
+        
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+/* Pricing Section */
+
+.price {
+
+    &__background {
+        background-color: $color-offWhite;
+    }
+
+    &__title {
+        padding: 10rem 0;
+
+        h2 {
+            font-size: 3rem;
+        }
+    }
+
+    &__content {
+
+        &--type {
+            font-size: 1.8rem;
+        }
+
+        &--price {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        &--time {
+            font-size: 1.5rem;
+        }
+
+        &--features {
+            font-size: 1.7rem;
+        }
+    }
+}
+
