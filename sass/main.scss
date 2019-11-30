@@ -226,3 +226,50 @@ h1 {
     }
 }
 
+/* Team Section */
+.team__title {
+    padding: 10rem 0; }
+    .team__title h2 {
+      font-size: 3rem; }
+  
+  .team__content {
+    padding-bottom: 20rem; }
+    .team__content--img {
+      padding: 3rem 0; }
+    .team__content--role {
+      font-size: 1.8rem;
+      padding-bottom: 1rem; }
+    .team__content--name {
+      font-size: 1.4rem;
+      font-weight: bold;
+      padding-bottom: 1rem; }
+    .team__content--description {
+      font-size: 1.4rem; }
+    .team__content--social img {
+      padding: 1rem; }
+  
+  /* Download Section */
+  .download {
+    padding: 8rem 0; }
+    .download__background {
+      background-color: #0ABCEB; }
+    .download__title h3 {
+      font-size: 2.8rem;
+      font-weight: bold;
+      color: #fff; }
+    .download__title p {
+      font-size: 1.4rem;
+      color: #fff; }
+  
+  /* Footer Section */
+  .footer__background {
+    background-color: #464646; }
+  
+  .footer__content {
+    padding: 2.7rem 0 2rem 0; }
+    .footer__content p {
+      font-size: 1.3rem;
+      color: #fff; }
+    .footer__content img {
+      padding: 1rem; }
+

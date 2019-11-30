@@ -116,65 +116,62 @@ h1 {
   .price__title h2 {
     font-size: 3rem; }
 
-.price__content {
-  padding-bottom: 10rem; }
-  .price__content--type {
-    font-size: 1.8rem;
-    padding-bottom: 2rem; }
-  .price__content--price {
-    font-size: 4rem;
-    font-weight: bold;
-    padding-bottom: 1.5rem; }
-  .price__content--time {
-    font-size: 1.5rem;
-    padding-bottom: 3rem; }
-  .price__content--features {
-    font-size: 1.7rem;
-    padding-bottom: 5rem; }
-  .price__content a {
-    font-size: 1.8rem;
-    padding: 1.3rem 4.5rem;
-    border-radius: 2rem; }
-    .price__content a.btn {
-      color: #fff; }
-  .price__content--center {
-    background-color: #fff;
-    box-shadow: #000 0.5rem 0.5rem 0.5rem; }
+.price__content--type {
+  font-size: 1.8rem; }
+
+.price__content--price {
+  font-size: 4rem;
+  font-weight: bold; }
+
+.price__content--time {
+  font-size: 1.5rem; }
+
+.price__content--features {
+  font-size: 1.7rem; }
 
 /* Team Section */
 .team__title {
   padding: 10rem 0; }
-  .team__title h2 {
-    font-size: 3rem; }
+
+.team__title h2 {
+  font-size: 3rem; }
 
 .team__content {
   padding-bottom: 20rem; }
-  .team__content--img {
-    padding: 3rem 0; }
-  .team__content--role {
-    font-size: 1.8rem;
-    padding-bottom: 1rem; }
-  .team__content--name {
-    font-size: 1.4rem;
-    font-weight: bold;
-    padding-bottom: 1rem; }
-  .team__content--description {
-    font-size: 1.4rem; }
-  .team__content--social img {
-    padding: 1rem; }
+
+.team__content--img {
+  padding: 3rem 0; }
+
+.team__content--role {
+  font-size: 1.8rem;
+  padding-bottom: 1rem; }
+
+.team__content--name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding-bottom: 1rem; }
+
+.team__content--description {
+  font-size: 1.4rem; }
+
+.team__content--social img {
+  padding: 1rem; }
 
 /* Download Section */
 .download {
   padding: 8rem 0; }
-  .download__background {
-    background-color: #0ABCEB; }
-  .download__title h3 {
-    font-size: 2.8rem;
-    font-weight: bold;
-    color: #fff; }
-  .download__title p {
-    font-size: 1.4rem;
-    color: #fff; }
+
+.download__background {
+  background-color: #0ABCEB; }
+
+.download__title h3 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #fff; }
+
+.download__title p {
+  font-size: 1.4rem;
+  color: #fff; }
 
 /* Footer Section */
 .footer__background {
@@ -182,8 +179,10 @@ h1 {
 
 .footer__content {
   padding: 2.7rem 0 2rem 0; }
-  .footer__content p {
-    font-size: 1.3rem;
-    color: #fff; }
-  .footer__content img {
-    padding: 1rem; }
+
+.footer__content p {
+  font-size: 1.3rem;
+  color: #fff; }
+
+.footer__content img {
+  padding: 1rem; }
